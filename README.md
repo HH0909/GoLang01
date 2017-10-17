@@ -1,5 +1,4 @@
-
-##数据结构
+* 数据结构
 type SelpgArgs struct {
     
     startP int    //start page number
