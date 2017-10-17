@@ -3,11 +3,11 @@
 type SelpgArgs struct {
     
     	startP int    //start page number
-	endP   int    //end page number
-	len    int    //how many lines per page
-	typeP  int    //type of page decide whether to yse '/f'
-	desP   string //destination to print
-	name   string //file name
+		endP   int    //end page number
+		len    int    //how many lines per page
+		typeP  int    //type of page decide whether to yse '/f'
+		desP   string //destination to print
+		name   string //file name
 }
 
 * 函数声明
