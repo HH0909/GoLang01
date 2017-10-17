@@ -1,4 +1,5 @@
 * 数据结构
+
 type SelpgArgs struct {
     
     	startP int    //start page number
@@ -10,6 +11,7 @@ type SelpgArgs struct {
 }
 
 * 函数声明
+
 func Processor1(sa SelpgArgs, f bool, p bool)
 
 func Processor2(sa SelpgArgs, f bool, p bool)
