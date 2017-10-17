@@ -1,7 +1,7 @@
 * 数据结构
 type SelpgArgs struct {
     
-    startP int    //start page number
+    	startP int    //start page number
 	endP   int    //end page number
 	len    int    //how many lines per page
 	typeP  int    //type of page decide whether to yse '/f'
@@ -9,14 +9,14 @@ type SelpgArgs struct {
 	name   string //file name
 }
 
-##函数声明
+* 函数声明
 func Processor1(sa SelpgArgs, f bool, p bool)
 
 func Processor2(sa SelpgArgs, f bool, p bool)
 
 func usage() 
 
-##结果测试
+* 结果测试
 
 生成两个测试文档：a.txt b.txt. a.txt以\n结尾，b.txt以\f结尾。两个文档均为1-100的整数数字
 
